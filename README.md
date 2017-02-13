@@ -1,4 +1,4 @@
-# hadoop
+# hadoop-user-creation
 A script for creating users in LDAP, in a Kerberos enabled hadoop cluster. The script accepts user information from the file  /tmp/userenv. 
 The script performs the following operations:
  1. It creates the user in  LDAP.
