@@ -4,7 +4,7 @@ source /tmp/userenv
 SHAPASS=`slappasswd -s $PASSWD`
 
 cat  > /tmp/${USERID}.ldif << EOF
-dn: uid=$USERID,ou=People,dc=dlx,dc=idc,dc=ge,dc=com
+dn: uid=$USERID,ou=People,dc=company,dc=dept,dc=domain,dc=com
 uid: $USERID
 cn: $USERID
 objectClass: account
