@@ -1,0 +1,9 @@
+export NAME=ibsmob
+export USERID=ibsmob
+export VUID=1158
+export GROUP=1036
+export GROUPNAME=insurance
+export EMPLOYEEID=1234567890
+export EMAIL=ibsmob@domain.com
+export PASSWD=changeme
+export SHELL=/bin/false
